@@ -15,7 +15,7 @@ const Header = ({ refs }) => {
         scrollSmoothHandler(refs.contactRef);
         break;
       case '/hero':
-        scrollSmoothHandler(refs.heroRef);
+        scrollSmoothHandler(refs.introRef);
         break;
 
       default:
