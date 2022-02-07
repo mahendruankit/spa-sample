@@ -14,7 +14,7 @@ const Header = ({ refs }) => {
       case '/contact':
         scrollSmoothHandler(refs.contactRef);
         break;
-      case '/hero':
+      case '/intro':
         scrollSmoothHandler(refs.introRef);
         break;
 
@@ -25,7 +25,6 @@ const Header = ({ refs }) => {
   }, [location, refs]);
 
   const scrollSmoothHandler = (ref) => {
-    console.log('Triggered.');
     ref.current.scrollIntoView({ behavior: 'smooth' });
   };
 
